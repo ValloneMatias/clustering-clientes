@@ -51,19 +51,25 @@ El dataset contiene información de clientes de un shopping, con las siguientes 
 
 ## 📌 Análisis exploratorio (EDA)
 
-Visualizamos las variables para entender su distribución y relaciones:
+<p align="center">
+  <img src="images/distribuciones_edad_ingreso_score.png" width="600"/>
+</p>
+<p align="center"><i>Distribución de Edad, Ingreso y Score de Gasto</i></p>
 
-![Distribuciones](images/distribuciones_edad_ingreso_score.png)
-*Distribución de Edad, Ingreso y Score de Gasto*
+<p align="center">
+  <img src="images/boxplots_genero_ingreso_score.png" width="600"/>
+</p>
+<p align="center"><i>Distribución por género del ingreso y el score de gasto</i></p>
 
-![Boxplots](images/boxplots_genero_ingreso_score.png)
-*Distribución por género del ingreso y el score de gasto*
+<p align="center">
+  <img src="images/scatter_ingreso_vs_score_por_genero.png" width="600"/>
+</p>
+<p align="center"><i>Relación entre Ingreso y Score de Gasto</i></p>
 
-![Ingreso vs Score](images/scatter_ingreso_vs_score_por_genero.png)
-*Relación entre Ingreso y Score de Gasto*
-
-![Matriz de correlación](images/heatmap_correlacion_varibles.png)
-*Correlación entre variables numéricas*
+<p align="center">
+  <img src="images/heatmap_correlacion_varibles.png" width="600"/>
+</p>
+<p align="center"><i>Correlación entre variables numéricas</i></p>
 
 ---
 
@@ -71,23 +77,31 @@ Visualizamos las variables para entender su distribución y relaciones:
 
 ### 🔹 Método del Codo
 
-Se identificó que **k = 5** es una buena elección:
-
-![Método del Codo](images/metodo_del_codo_kmeans.png)
+<p align="center">
+  <img src="images/metodo_del_codo_kmeans.png" width="600"/>
+</p>
+<p align="center"><i>Selección de k óptimo (k = 5)</i></p>
 
 ### 🔹 Visualización en espacio escalado
 
-![K-Means Escalado](images/clusters_kmeans_escalado.png)
+<p align="center">
+  <img src="images/clusters_kmeans_escalado.png" width="600"/>
+</p>
 
 ### 🔹 Visualización en valores originales
 
-![K-Means Original](images/clusters_kmeans_datos_originales.png)
+<p align="center">
+  <img src="images/clusters_kmeans_datos_originales.png" width="600"/>
+</p>
 
 ---
 
-## 🧪 Comparación con DBSCAN
+## 🔄 Comparación con DBSCAN
 
-![DBSCAN](images/cluster_dbscan.png)
+<p align="center">
+  <img src="images/cluster_dbscan.png" width="600"/>
+</p>
+
 
 | Aspecto           | K-Means             | DBSCAN                             |
 | ----------------- | ------------------- | ---------------------------------- |
