@@ -1,0 +1,29 @@
+# Archivos de Python
+__pycache__/
+*.py[cod]
+*.so
+
+# Archivos Jupyter temporales
+.ipynb_checkpoints/
+
+# Entornos virtuales
+env/
+venv/
+.venv/
+
+# Archivos del sistema
+.DS_Store
+Thumbs.db
+
+# Archivos de logs o caché
+*.log
+*.tmp
+
+# Archivos de datos grandes (opcional si no querés subir datasets)
+*.csv
+*.xlsx
+*.zip
+
+# Configuraciones del sistema o IDE
+.vscode/
+.idea/
